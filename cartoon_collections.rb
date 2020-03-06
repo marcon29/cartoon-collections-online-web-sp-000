@@ -17,4 +17,3 @@ end
 
 dwarf_list = ["Dopey", "Grumpy", "Bashful"]
 roll_call_dwarves(dwarf_list)
-
