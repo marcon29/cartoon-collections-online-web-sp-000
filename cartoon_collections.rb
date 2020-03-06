@@ -1,5 +1,5 @@
-def roll_call_dwarves# code an argument here
-  # Your code here
+def roll_call_dwarves(dwarf_list)
+	dwarf_list.each_with_index { |dwarf, index| puts "#{index} #{dwarf}" }
 end
 
 def summon_captain_planet# code an argument here
@@ -14,3 +14,7 @@ def find_the_cheese# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
+
+dwarf_list = ["Dopey", "Grumpy", "Bashful"]
+roll_call_dwarves(dwarf_list)
+
