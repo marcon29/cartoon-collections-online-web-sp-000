@@ -16,4 +16,4 @@ def find_the_cheese# code an argument here
 end
 
 planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
-summon_captain_planet(planeteer_calls)
+puts summon_captain_planet(planeteer_calls)
