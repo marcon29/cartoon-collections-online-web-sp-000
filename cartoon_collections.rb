@@ -10,14 +10,21 @@ def long_planeteer_calls(calls_list)
 	calls_list.any? { |call| call.length > 4 }
 end
 
+#def find_the_cheese(array)
+#	cheese_types = ["cheddar", "gouda", "camembert"]
+
+#	array.find do |item|
+#		cheese_types.any?{ |cheese| cheese == item }
+#	end
+#end
+
 def find_the_cheese(array)
 	cheese_types = ["cheddar", "gouda", "camembert"]
 
-	array.find do |item|
-		cheese_types.any?{ |cheese| cheese == item }
-	end
+	array.find { |item| cheese_types.include?(item) }
 end
 
-#soup = ["tomato soup", "cheddar", "oyster crackers", "gouda"]
-soup = ["crackers", "thyme"]
+# soup = ["tomato soup", "cheddar", "oyster crackers", "gouda"]
+# soup = ["crackers", "gouda", "thyme"]
+# soup = ["crackers", "thyme"]
 puts find_the_cheese(soup)
