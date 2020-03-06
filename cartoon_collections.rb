@@ -15,5 +15,5 @@ def find_the_cheese# code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
 
-planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
-puts long_planeteer_calls(planeteer_calls)
+soup = ["tomato soup", "cheddar", "oyster crackers", "gouda"]
+puts find_the_cheese(soup)
