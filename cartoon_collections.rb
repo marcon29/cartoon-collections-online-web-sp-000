@@ -19,5 +19,5 @@ def find_the_cheese(array)
 end
 
 #soup = ["tomato soup", "cheddar", "oyster crackers", "gouda"]
-soup = ["crackers", "gouda", "thyme"]
+soup = ["crackers", "thyme"]
 puts find_the_cheese(soup)
